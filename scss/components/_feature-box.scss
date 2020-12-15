@@ -13,7 +13,7 @@
     display: inline-block;
     color: transparent;
     background-image: linear-gradient(to right, rgba($color-primary-light, .8), rgba($color-primary-dark, .8));
-    background-clip: text;
+    -webkit-background-clip: text;
   }
 
   &:hover {
